@@ -222,6 +222,7 @@ hr {
   margin: 0;
   color: var(--neutral-medium-brown);
 }
+
 /* footer */
 .attribution {
   font-size: 11px;
@@ -254,7 +255,6 @@ hr {
   .chart-area h3 {
     font-size: 22px;
   }
-
   .bar {
     width: 33px;
   }
