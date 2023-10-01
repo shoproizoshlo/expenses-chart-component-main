@@ -16,6 +16,16 @@ fetch("./scripts/data.json")
       } else {
         bar.style.backgroundColor = "hsl(10, 79%, 65%)"; // Default color
       }
+
+      bar.addEventListener("mouseover", (event) => {
+        if (item.amount === maxAmount) {
+          bar.style.cursor = "pointer";
+          bar.style.backgroundColor = "hsl(186, 34%, 40%)"; // color for the highest bar
+        } else {
+          bar.style.cursor = "pointer";
+          bar.style.backgroundColor = "hsl(10, 79%, 45%)"; // Default color
+        }
+      });
     });
   })
   .catch((error) => console.error("Error loading data:", error));
