@@ -5,7 +5,12 @@ fetch("./scripts/data.json")
 
     data.forEach((item, index) => {
       const bar = document.getElementById(`bar${index + 1}`);
-      bar.style.height = `${item.amount * 2}px`;
+
+      if (window.innerWidth < 767) {
+        bar.style.height = `${item.amount * 3}px`;
+      } else {
+        bar.style.height = `${item.amount * 2}px`;
+      }
 
       function defaultColor() {
         bar.style.backgroundColor =
