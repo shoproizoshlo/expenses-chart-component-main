@@ -1,6 +1,6 @@
 # Frontend Mentor - Expenses chart component solution
 
-This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). 
 
 ## Table of contents
 
@@ -31,7 +31,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/shoproizoshlo/expenses-chart-component-main
 - Live Site URL: https://sue-expenses-chart-component.netlify.app/
 
 ## My process
@@ -61,6 +60,4 @@ bar.addEventListener("mouseout", () => {});
 
 ## Author
 
-- Website - [Sue Brechko](https://github.com/shoproizoshlo)
 - Frontend Mentor - [@shoproizoshlo](https://www.frontendmentor.io/profile/shoproizoshlo)
-- Twitter - [@suereact](https://www.twitter.com/suereact)
